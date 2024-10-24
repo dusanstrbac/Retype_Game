@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Game | Retyping</title>
+    </head>
+
+    <body>
+
+        <div class="Wrapper">
+            
+            <h1 style="padding-top: 20px; padding-left: 15px; text-align: center;">Welcome to Retyping game</h1>
+            <h3 style="padding-top: 5px; padding-left: 15px; text-align: center;">Rules are simple. You have a word you just need to retype it.</h3>
+            <h3 style="padding-top: 5px; padding-left: 15px; text-align: center;">Oh yeah one more thing ... Its case sensitive </h3>
+
+
+            <button type="button" id="startGame">Start Game</button>
+            
+            <div class="GameSegment" id="gameSegment">
+
+                <h2>Level #<span id="currentLevel"></span></h2>
+
+                <h3>Word is: <span id="selectedWord"></span></h3>
+
+                <input type="text" id="playerInput" placeholder="Type Your word here">
+
+                <button type="button" id="completeButton">Complete</button>
+
+                <p id="infoText"></p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
